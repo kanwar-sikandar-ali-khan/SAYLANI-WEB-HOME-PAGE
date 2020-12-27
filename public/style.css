@@ -1,0 +1,416 @@
+
+body{
+    margin: 0px;
+    border: 2px  black;
+}
+
+.hiddennav{
+    visibility: hidden;
+}
+
+.nav-text{
+    /* border: 2px red solid; */
+    text-align: center;
+    position: absolute;
+    right: 390px;
+    font-size: medium;
+    color: white;
+}
+
+.nav-ul{
+   
+    width: 270px;
+    /* border: 3px solid black; */
+}
+
+.smalldiv{
+    border:0.3px solid #696969 ;
+    text-decoration: none;
+    margin: 2px;
+    background-color: white;
+    color: #545454;
+    padding: 3px;
+    
+    text-decoration: none;
+    
+    
+}
+
+.navcolor{
+    /* background-color:#0390fc ; */
+    /* background-color:#173F5F ; */
+    background-color: #316DC3;
+   
+}
+
+/* 1st nav completed */
+
+
+.navitem{
+    /* border: 2px solid red; */
+    /* width: 400px; */
+
+
+    position: absolute;
+    right: 45px;
+    font-weight: bolder;
+
+    
+}
+
+.hover:hover{
+    /* background-color: #173F5F ; */
+
+
+    background-color: #316DC3;
+    border-radius: 20px;
+    color: white;
+}
+
+
+/* MY 2nd NAV COMPLETED */
+
+
+
+/* .db {
+    background-color:  #fafafa ;
+    color: #545454;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .da {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dc {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dc a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+
+
+.dc
+a:hover {
+    background-color: #ddd;
+}
+
+.da:hover
+.dc {
+    display: block;
+}
+
+.da:hover
+.db {
+    background-color: #316DC3;
+    border-radius: 20px 20px 20px 20px ;
+    
+}
+
+.db{
+    
+    font-size: smaller;
+    
+} */
+
+
+
+
+
+/* 2nd nav bar by 2nd time completed */
+
+
+.marqp{
+    background-color: #316DC3;
+    color: white;
+
+    
+}
+.news{
+    color:#00FF00 ;
+    
+}
+.newslink{
+    color: blue;
+}
+
+/* marquee news alert completed */
+
+.introduction{
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    
+}
+.intro{
+color:rgb(49, 109, 195) ;
+
+}
+.duction{
+color: #00FF00;
+
+}
+
+/* introduction div completed */
+
+
+
+.a{
+    display: flex;
+   justify-content: space-around;
+   
+    
+    background-color: black;
+    
+    
+}
+.b,.z,.d,.e{
+    background-color:#2f4ced;
+    color: white;
+    text-align: center;
+    font-family: Courier New ,Helvetica;
+    font-weight: bolder;
+    line-height: 50px;
+    font-size: 15px;
+    margin: 10%;
+    
+    
+ 
+    
+}
+.gtext{
+    color: lawngreen;
+}
+
+.card-subtitle{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+
+/* bluecards completed */
+
+
+
+.whatwe{
+    padding: 30px;
+}
+
+.what1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ww{
+    font-family: serif;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 20px 20px 0px 0px;
+    
+}
+.wwx{
+    padding: 20px 10px 20px 80px; 
+    background-color: white;
+    color: #2f4ced;
+}
+
+/* WHAT WE ARE DOING COMPLETED */
+
+
+.maindivoffooter{
+    display: flex;
+    background-color:#25272e;
+}
+
+.text-white{
+    padding: 10px;
+}
+
+/* BLACK FOOTER COMPLETED */
+
+
+
+.maindiv{
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.blackdiv{
+    display: flex;
+    /* padding: 30px; */
+    justify-content: space-between;
+    flex-wrap: wrap ;
+}
+
+.browndiv{
+    display: flex;
+    
+    
+
+}
+
+.h111{
+    color:#2f4ced ;
+    font-family:serif,Arial, Courier New;
+    font-weight: bolder;
+}
+
+.taxi{
+    color:#2f4ced ;
+    font-family:serif,Arial, Courier New;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.mainmaindiv{
+    display: flex;
+}
+
+/* MISSION AND UPCOMING PROJECTS COMPLETED */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 1125px){
+
+
+.nav-text{
+    width: 450px;
+    position: absolute;
+    right: 340px;
+    font-size: 15px  ;
+    padding: 60px;
+}
+
+.smalldiv{
+   
+    
+
+
+}
+
+}
+
+@media only screen and (max-width : 1050px){
+    .nav-text{
+        margin: 0 auto;
+    }
+
+
+    .nav-ul{
+        border: red 2px solid;
+        width: 280px;
+        position: absolute;
+        top: 20px;
+        right: 430px;
+    }
+    .navdiv{
+
+        height: 180px;
+    }
+    .mainsmalldiv{
+        position: absolute;
+        right: 390px;
+       top: 120px;
+       
+    }
+    .whatsapp{
+        position: absolute;
+    top: 2.7rem;
+    }
+
+
+
+
+
+
+}
+@media only screen and (max-width : 993px){
+
+
+
+    .nav-text{
+        margin: 0 auto;
+    }
+
+
+    .nav-ul{
+        border: red 2px solid;
+        height: 50px;
+        width: 310px;        
+    }
+
+
+
+    .whatsapp{
+        position: absolute;
+    top: 2.7rem;
+    }
+}
+
+
+
+
+@media only screen and (max-width : 992px){
+
+
+
+    .nav-text{
+        margin: 0 auto;
+    }
+
+
+    .nav-ul{
+        border: red 2px solid;
+              
+    }
+
+
+
+    .whatsapp{
+        position: absolute;
+    top: 2.7rem;
+    }
+}
